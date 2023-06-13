@@ -26,19 +26,19 @@ turn1 = round_1.take_turn(string1)
 print(turn1.feedback())
 
 print("This is card 2 out of 4")
-guess2 = raw_input(round_1.deck.cards[0].question)
+guess2 = input(round_1.deck.cards[0].question)
 turn2 = round_1.take_turn(guess2)
 
 print(turn2.feedback())
 
 
 print("This is card 3 out of 4")
-guess3 = raw_input(round_1.deck.cards[0].question)
+guess3 = input(round_1.deck.cards[0].question)
 turn3 = round_1.take_turn(guess3)
 print(turn3.feedback())
 
 print("This is card 4 out of 4")
-guess4 = raw_input(round_1.deck.cards[0].question)
+guess4 = input(round_1.deck.cards[0].question)
 turn4 = round_1.take_turn(guess4)
 print(turn4.feedback())
 

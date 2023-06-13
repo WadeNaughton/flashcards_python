@@ -1,4 +1,4 @@
-import turn
+from flashcards import turn
 class Round: 
 
     def __init__(self, deck):
