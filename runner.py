@@ -44,9 +44,9 @@ print(turn4.feedback())
 
 print("****** Game Over! ******")
 print("You had " + str(round_1.number_correct()) + " correct guesses out of 4 for a total score of " + str(round_1.percent_correct()))
-print("Person - " + str(round_1.percent_correct_by_category("Person")) + " correct")
-print("STEM - " + str(round_1.percent_correct_by_category("STEM")) + " correct")
-print("Color - " + str(round_1.percent_correct_by_category("Color")) + " correct")
+print("Person - " + str(round_1.percent_correct_by_category("Person")) + " percent correct")
+print("STEM - " + str(round_1.percent_correct_by_category("STEM")) + " percent correct")
+print("Color - " + str(round_1.percent_correct_by_category("Color")) + " percent correct")
 
 
 
